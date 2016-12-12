@@ -42,3 +42,10 @@ body {
 	right: 0;  
 	margin: auto;
 }
+
+/* zorgt ervoor dat de text in het midden komt met genoeg ruimte */
+.welcomeTextContainer{
+	width: 70%;
+	min-width: 500px;
+	margin: auto;
+}
