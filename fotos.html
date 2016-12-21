@@ -61,10 +61,17 @@
 	</nav>
 
 <!-- main container voor content -->
-	
+	<div class="container-fluid fotoContainer">
+
+    <!--knoppen voor switchen tussen slideshow en grid -->
+    <div class="col-xs-12">
+      <button onclick="setGalerijStyle(1)">slideshow</button>
+      <button onclick="setGalerijStyle(2)">grid</button>
+      <p>test</p>
+    </div>
     <!-- Carousel
     ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+    <div id="myCarousel" class="carousel slide col-xs-12" data-ride="carousel" data-interval="false">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -106,8 +113,44 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
-	
-	
+
+    <!-- grid view galerij -->
+    <div id="myGrid" class="container-fluid grid">
+      <p>test</p>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <p style="text-align: center;">test2</p>
+        <img class="gridImg" src="galerij/plaatje1.jpg" alt="plaatje 1 description">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <p style="text-align: center;">test3</p>
+        <img class="gridImg" src="galerij/plaatje2.jpg" alt="plaatje 2 description">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <p style="text-align: center;">test4</p>
+        <img class="gridImg" src="galerij/plaatje3.jpg" alt="plaatje 3 description">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <p style="text-align: center;">test5</p>
+        <img class="gridImg" src="galerij/plaatje4.jpg" alt="plaatje 4 description">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <p style="text-align: center;">test6</p>
+        <img class="gridImg" src="galerij/plaatje5.jpg" alt="plaatje 5 description">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <p style="text-align: center;">test7</p>
+        <img class="gridImg" src="galerij/plaatje6.jpg" alt="plaatje 6 description">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <p style="text-align: center;">test8</p>
+        <img class="gridImg" src="galerij/plaatje7.jpg" alt="plaatje 7 description">
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <p style="text-align: center;">test9</p>
+        <img class="gridImg" src="galerij/plaatje8.jpg" alt="plaatje 8 description">
+      </div>
+    </div>
+	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
