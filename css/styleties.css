@@ -71,3 +71,12 @@ body {
 	margin: auto;
 	display: block;
 }
+
+.gridImgDiv{
+	min-height: 330px;
+}
+
+.btnFotos{
+	background-color: #e7e7e7;
+	border-color: #e7e7e7;
+}
