@@ -74,6 +74,16 @@ body {
 
 .gridImgDiv{
 	min-height: 330px;
+	border-bottom-style: solid; 
+	border-bottom-width: 0px;
+	border-top-style: solid; 
+	border-top-width: 0px;
+	border-left-style: solid; 
+	border-left-width: 0px;
+	border-right-style: solid; 
+	border-right-width: 0px;
+ 	border-color: #e7e7e7;
+	background-color: #e7e7e7;
 }
 
 .btnFotos{
